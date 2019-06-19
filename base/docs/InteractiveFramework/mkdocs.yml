@@ -1,0 +1,7 @@
+site_name: Interactive Framework Documentation
+theme: readthedocs
+nav:
+  - Getting Started: index.md
+  - Core Modules: ./modules/modules.md
+  - AEM Modules: ./modules/aem/aem_modules.md
+

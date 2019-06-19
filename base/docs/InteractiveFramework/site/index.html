@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+
+
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+
+
+
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+
+
+<head>
+
+
+
+  <meta charset="utf-8">
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <meta name="description" content="None">
+
+
+
+  
+
+
+
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+
+
+  <title>Getting Started - Interactive Framework Documentation</title>
+
+
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+
+  <link rel="stylesheet" href="css/theme.css" type="text/css" />
+
+
+
+  <link rel="stylesheet" href="css/theme_extra.css" type="text/css" />
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+
+
+  
+
+
+
+  <script>
+
+
+
+    // Current page data
+
+
+
+    var mkdocs_page_name = "Getting Started";
+
+
+
+    var mkdocs_page_input_path = "index.md";
+
+
+
+    var mkdocs_page_url = null;
+
+
+
+  </script>
+
+
+
+  
+
+
+
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+
+
+
+  <script src="js/modernizr-2.8.3.min.js" defer></script>
+
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  <script>hljs.initHighlightingOnLoad();</script> 
+
+
+
+  
+
+
+
+</head>
+
+
+
+
+
+
+
+<body class="wy-body-for-nav" role="document">
+
+
+
+
+
+
+
+  <div class="wy-grid-for-nav">
+
+
+
+
+
+
+
+    
+
+
+
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+
+
+
+      <div class="wy-side-nav-search">
+
+
+
+        <a href="." class="icon icon-home"> Interactive Framework Documentation</a>
+
+
+
+        <div role="search">
+
+
+
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+
+
+
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+
+
+
+  </form>
+
+
+
+</div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+
+
+
+	<ul class="current">
+
+
+
+	  
+
+
+
+          
+
+
+
+            <li class="toctree-l1 current">
+
+
+
+		
+
+
+
+    <a class="current" href=".">Getting Started</a>
+
+
+
+    <ul class="subnav">
+
+
+
+            
+
+
+
+    <li class="toctree-l2"><a href="#welcome-to-the-interactive-framework">Welcome to the Interactive Framework</a></li>
+
+
+
+    
+
+
+
+        <ul>
+
+
+
+        
+
+
+
+            <li><a class="toctree-l3" href="#summary">Summary</a></li>
+
+
+
+        
+
+
+
+            <li><a class="toctree-l3" href="#project-layout">Project layout</a></li>
+
+
+
+        
+
+
+
+            <li><a class="toctree-l3" href="#how-to-run">How to Run</a></li>
+
+
+
+        
+
+
+
+        </ul>
+
+
+
+    
+
+
+
+
+
+
+
+    </ul>
+
+
+
+	    </li>
+
+
+
+          
+
+
+
+            <li class="toctree-l1">
+
+
+
+		
+
+
+
+    <a class="" href="modules/modules/index.html">Core Modules</a>
+
+
+
+	    </li>
+
+
+
+          
+
+
+
+            <li class="toctree-l1">
+
+
+
+		
+
+
+
+    <a class="" href="modules/aem/aem_modules/index.html">AEM Modules</a>
+
+
+
+	    </li>
+
+
+
+          
+
+
+
+        </ul>
+
+
+
+      </div>
+
+
+
+      &nbsp;
+
+
+
+    </nav>
+
+
+
+
+
+
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+
+
+
+
+
+
+      
+
+
+
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+
+
+
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+
+
+
+        <a href=".">Interactive Framework Documentation</a>
+
+
+
+      </nav>
+
+
+
+
+
+
+
+      
+
+
+
+      <div class="wy-nav-content">
+
+
+
+        <div class="rst-content">
+
+
+
+          <div role="navigation" aria-label="breadcrumbs navigation">
+
+
+
+  <ul class="wy-breadcrumbs">
+
+
+
+    <li><a href=".">Docs</a> &raquo;</li>
+
+
+
+    
+
+
+
+      
+
+
+
+    
+
+
+
+    <li>Getting Started</li>
+
+
+
+    <li class="wy-breadcrumbs-aside">
+
+
+
+      
+
+
+
+    </li>
+
+
+
+  </ul>
+
+
+
+  <hr/>
+
+
+
+</div>
+
+
+
+          <div role="main">
+
+
+
+            <div class="section">
+
+
+
+              
+
+
+
+                <h1 id="welcome-to-the-interactive-framework">Welcome to the Interactive Framework</h1>
+
+
+
+<h2 id="summary">Summary</h2>
+
+
+
+<p>The Interactive Framework was created to modulate existing scripts into a single toolset.<br>
+
+
+
+The Framework will dynamically import modules from the module directory, provide recommendations on
+
+
+
+commands, and allow you to run a module interactively or run with the necessary arguments from the main menu.<br></p>
+
+
+
+<p>Alternatively, a flag is added to the <code>aem_util.py</code> script so you can run your module and arguments in a single command.
+
+
+
+This is useful when designing jenkins jobs or other scheduled automation tasks.</p>
+
+
+
+<h2 id="project-layout">Project layout</h2>
+
+
+
+<ul>
+
+
+
+<li><code>aem_util.py</code> <sub><em>(Script Calls the actual framework with an easy to use name)</em> </sub><br></li>
+
+
+
+<li>
+
+
+
+<p><strong>base/</strong> <br></p>
+
+
+
+<ul>
+
+
+
+<li>
+
+
+
+<p><code>main.py</code> <sub><em>(Main script for Interactive Framework)</em></sub><br></p>
+
+
+
+</li>
+
+
+
+<li>
+
+
+
+<p><strong>core/</strong>   <sub><em>(Directory for Core Framework Modules)</em></sub><br></p>
+
+
+
+<ul>
+
+
+
+<li><code>get_arguments.py</code>  <sub><em>(Module That Defines arguments for main.py)</em></sub><br></li>
+
+
+
+<li><code>pyCommon.py</code>  <sub><em>(Module That Defines common imports and variables for import)</em></sub><br></li>
+
+
+
+</ul>
+
+
+
+</li>
+
+
+
+<li>
+
+
+
+<p><strong>modules/</strong>  <sub><em>(Directory to store Modules)</em></sub><br></p>
+
+
+
+<ul>
+
+
+
+<li><code>encode_password.py</code>  <sub><em>(Module to encode / decode passwords)</em></sub><br></li>
+
+
+
+<li><code>sql_query.py</code> <sub><em>(Module to perform SQLite3 queries and return results)</em></sub><br></li>
+
+
+
+<li><code>&lt;Your Custom Module Here&gt;</code></li>
+
+
+
+</ul>
+
+
+
+</li>
+
+
+
+</ul>
+
+
+
+</li>
+
+
+
+</ul>
+
+
+
+<h2 id="how-to-run">How to Run</h2>
+
+
+
+<p>To Run, simply run python and the <code>aem_util.py</code> like so:<br>
+
+
+
+<code>python /path/to/aem_util.py</code> <br></p>
+
+
+
+<p>To execute in a single command and avoid running the main menu, Simply use the -m argument.<br>
+
+
+
+This example runs the <code>sql_query.py</code> module with multiple arguments
+
+
+
+Example: <code>python3 aem_util.py -m "encode_password --encode test"</code></p>
+
+
+
+<h3 id="main-menu-recommendations">Main Menu + recommendations:</h3>
+
+
+
+<p><img alt="Main Menu" src="images/main_menu.png" /></p>
+
+
+
+<h3 id="dynamically-import-modules-without-changing-code">Dynamically Import Modules without changing code:</h3>
+
+
+
+<p><img alt="Show Modules Command" src="images/show_modules.png" /></p>
+
+
+
+<h3 id="run-module-interactive">Run Module Interactive:</h3>
+
+
+
+<p><img alt="Interactive1" src="images/interactive1.png" /> <br><br>
+
+
+
+<img alt="Interactive2" src="images/interactive2.png" /></p>
+
+
+
+<h3 id="module-help-acceptable-arguments">Module Help / Acceptable Arguments:</h3>
+
+
+
+<p><img alt="Help" src="images/help.png" /></p>
+
+
+
+<h3 id="execute-module-with-acceptable-arguments">Execute Module With Acceptable Arguments:</h3>
+
+
+
+<p><img alt="Run with Arguments" src="images/run_with_args.png" /></p>
+
+
+
+<h3 id="exit-module">Exit Module:</h3>
+
+
+
+<p><img alt="Exit" src="images/exit.png" /></p>
+
+
+
+              
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <footer>
+
+
+
+  
+
+
+
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+
+
+
+      
+
+
+
+        <a href="modules/modules/index.html" class="btn btn-neutral float-right" title="Core Modules">Next <span class="icon icon-circle-arrow-right"></span></a>
+
+
+
+      
+
+
+
+      
+
+
+
+    </div>
+
+
+
+  
+
+
+
+
+
+
+
+  <hr/>
+
+
+
+
+
+
+
+  <div role="contentinfo">
+
+
+
+    <!-- Copyright etc -->
+
+
+
+    
+
+
+
+  </div>
+
+
+
+
+
+
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+
+
+</footer>
+
+
+
+      
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+
+
+
+    <span class="rst-current-version" data-toggle="rst-current-version">
+
+
+
+      
+
+
+
+      
+
+
+
+      
+
+
+
+        <span style="margin-left: 15px"><a href="modules/modules/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+
+
+
+      
+
+
+
+    </span>
+
+
+
+</div>
+
+
+
+    <script>var base_url = '.';</script>
+
+
+
+    <script src="js/theme.js" defer></script>
+
+
+
+      <script src="search/main.js" defer></script>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+
+
+
+
+<!--
+
+
+
+MkDocs version : 1.0.4
+
+
+
+Build Date UTC : 2019-02-07 21:02:35
+
+
+
+-->
